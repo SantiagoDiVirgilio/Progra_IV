@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<link rel="icon" href="Imagenes/Favicon.png" type="image/png">
+	<title>FRIENDS: The One With The Fan Page</title>
+	<meta charset="UTF-8">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+	</style>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+
+<body style= "background-color: #040203;">
+	<header>
+		<div>
+			<a href="index.html"><img src="Imagenes/Logo.png" alt="Logo de la serie" class="logo"></a>
+		</div>
+		
+		<nav >
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li>
+					<a href="personajes.html">Personajes</a>
+				</li>
+				<li><a href="temporadas.html">Temporadas</a></li>
+				<li><a href="galeria.html">Galería</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="container-principal">
+	<div class="formu_side"></div>
+		<section class="formu">
+		<p>¿Quiere hacer algún comentario en cuanto a nuestra página web?<br>
+				  ¡Todos sus mensajes son bienvenidos por el Dios de las Mentiras!<br>
+			¡Completá el formulario y envialo!
+		</p>
+		<form action="contacto.html" method="post">
+			<br><label for="nom">Nombre:</label>
+			<input type="text" name="nombre" maxlength="10" id="identificador">
+
+			<br><label for="contra">Contraseña:</label>
+			<input type="password" name="contraseña" maxlength="10" id="identificador">
+
+			<br><label for="email">Email:</label>
+			<input type="email" name="email" maxlength="40" id="identificador">
+
+			<br><label for="comentario">Haga su comentario <strong>aquí:</strong></label><br>
+			<textarea arows="90" cols="40" maxlength="300" name="comentario"> 
+			</textarea>
+
+			<br><input type="submit" value="Enviar" id="identificador">
+			<input type="reset" value="Resetear Información" id="identificador">
+		</form>
+	</section>
+</div>
+</div>
+	<footer>
+		<div>
+			<a href="index.html"><strong>Inicio</strong></a>
+		</div>
+		<div>
+			<a href="personajes.html"><strong>Personajes</strong></a>
+		</div>
+		<div>
+			<a href="temporadas.html"><strong>Temporadas</strong></a>
+		</div>
+		<div>
+			<a href="galeria.html"><strong>Galería</strong></a>
+		</div>
+		<div>
+			<a href="contacto.html"><strong>Contacto</strong></a>
+		</div>
+		<a href="https://es-la.facebook.com/" target="_blank"><img src="Imagenes/Icono_Facebook.png" alt="Facebook" class="redes"></a>
+		<a href="https://www.instagram.com/" target="_blank"><img src="Imagenes/Icono_Instagram.png" alt="Instagram" class="redes"> </a>
+		<a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZXMifQ%3D%3D%22%7D" target="_blank"><img src="Imagenes/Icono_Twitter.png" alt="Twitter" class="redes"></a>
+	</footer>
+
+<!-- Script de efecto zoom -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+    $('.redes').hover(function() {
+        $(this).addClass('transition');
+    }, function() {
+        $(this).removeClass('transition');
+    });
+});
+</script>
+</body>
+</html>
