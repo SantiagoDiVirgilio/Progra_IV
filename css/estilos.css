@@ -106,6 +106,37 @@ p a{
   text-align: center; /* Centra el texto */;
   border: 2px solid rgb(96, 172, 96);
   box-shadow: 0 0 15px rgba(96, 172, 96, 0.7);
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.formu form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.formu form input[type="text"],
+.formu form input[type="password"],
+.formu form input[type="email"] {
+  width: 40%;
+  align-self: center;
+  box-sizing: border-box; /* Esto es importante para que el padding no afecte el ancho total */
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  gap: 20px;
+}
+
+.formu form textarea {
+  width: 100%;
+  height: 15%;
+  align-self: center;
 }
 .formu_side{
   flex: 1;
@@ -117,6 +148,8 @@ p a{
 }
 .container-principal {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .columna-fondo {
@@ -137,18 +170,43 @@ p a{
   margin-top: 4%;
   margin-left: 36%;
 }
-.icon_per{ /*Clase que define el icono de los protagonistas en la seccion "Personajes/Protagonistas"*/
-  margin-left: 2.5%;
-  margin-top: 3.5%;
-  display: inline;
-  max-width: 15%;
+.icon_per {
+  width: 250px;
+  object-fit: cover;
+  flex-shrink: 0;
 }
-.info_per{ /*Clase que define la informacion de los personajes*/
+
+.info_per {
+  display: flex;
+  align-items: stretch;
+  margin-bottom: 3rem;
   font-family: 'Cinzel', serif;
-  margin-left: 2.5%;
-  font-size: 20px;
-  display: block;
-  margin-bottom: 3%;
+  font-size: 18px;
+  line-height: 1.6;
+  background-color: #1a1a1a;
+  padding: 0;
+  border-radius: 15px;
+  border: 2px solid rgb(96, 172, 96);
+  box-shadow: 0 0 15px rgba(96, 172, 96, 0.7);
+  color: #FFFFFF;
+  overflow: hidden;
+}
+
+.info_per:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.info_per p {
+  flex: 1;
+  padding: 2rem;
+  align-self: center;
+}
+
+.info_per p strong {
+    font-size: 1.5em; /* Make the name bigger */
+    color: rgb(96, 172, 96); /* Highlight color */
+    display: block; /* Put it on its own line */
+    margin-bottom: 1rem; /* Space below the name */
 }
 
 /*-----------------------------------------------Código de Lightbox-----------------------------*/
