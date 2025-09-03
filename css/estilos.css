@@ -155,7 +155,7 @@ p a{
 .columna-fondo {
   flex: 1;
   background-image: url("../Imagenes/Fondo.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   min-height: 100vh;
