@@ -150,21 +150,17 @@ p a{
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.columna-fondo {
-  flex: 1;
   background-image: url("../Imagenes/Fondo.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: center;
   min-height: 100vh;
 }
 
 .columna-texto {
   flex: 1;
   padding: 20px;
-  /*background-color: rgba(188, 119, 58, 0.4);*/
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .title_logo{
   margin-top: 4%;
