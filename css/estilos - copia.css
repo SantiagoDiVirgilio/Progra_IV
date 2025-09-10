@@ -98,8 +98,6 @@ div nav{
 p a{
   color: #418242;
 }
-
-/*----------------------------- INICIO ESTILOS DE PAGINA CONTACTO--------------------------------------*/
 .formu{
   flex: 0 0 45%;
   color: #ffffff;
@@ -149,7 +147,6 @@ p a{
   background-repeat: no-repeat;
   background-position: left;
 }
-/*----------------------------- FIN ESTILOS DE PAGINA CONTACTO----------------------------------------*/
 .container-principal {
   display: flex;
   align-items: stretch;
@@ -165,15 +162,6 @@ p a{
 }
 
 .columna-texto {
-  flex: 1;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border: 2px solid rgb(96, 172, 96);
-  box-shadow: 0 0 15px rgba(96, 172, 96, 0.7);
-}
-.columna-texto-2 {
   flex: 1;
   padding: 20px;
   display: flex;
@@ -283,14 +271,13 @@ body.lb-disable-scrolling {
   max-width: inherit;
   max-height: none;
   border-radius: 3px;
+  /*border: url("../Imagenes/Fondo.jpg");*/
   /* Borde de la imagen */
-  border: 4px solid rgb(161, 114, 52);
-  box-shadow: 0 0 15px rgba(161, 114, 52, 7);
+  border: 5px solid white;
 }
 
 .lightbox a img {
   border: none;
-  box-shadow: 0 0 15px rgba(161, 114, 52, 7);
 }
 
 .lb-outerContainer { /*Opciones de imagen expandida*/
