@@ -684,27 +684,32 @@ footer div h7{
 
   /* Footer */
   footer {
-    padding: 1rem 0;
+    padding: 2rem 1rem;
+    text-align: center; /* Centra los hijos en línea (imágenes) y los bloques */
   }
 
-  footer div,
-  footer div h7,
-  footer div h7 a {
-    display: block;
-    text-align: center;
-    margin: 0.5rem 0;
+  footer div {
+    /* Resetea los estilos de escritorio que puedan interferir */
+    margin: 1.5rem auto 0; /* Margen superior, y centrado automático horizontal */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem; /* Espacio uniforme entre los enlaces */
   }
 
-  footer div a {
-    display: block;
-    margin: 0.5rem 0;
+  /* Unifica los estilos de texto y enlaces dentro del div */
+  footer div a,
+  footer div h7 {
+    display: block; /* Asegura que ocupen su propia línea */
+    margin: 0; /* El 'gap' se encarga del espaciado vertical */
     font-size: 1.1rem;
   }
 
+  /* Aumenta el tamaño de los íconos y ajusta su espaciado */
   footer img.redes {
-    width: 25px; /* Changed from 45px to 30px */
-    height: 25px; /* Changed from 45px to 30px */
-    margin: 0.5rem;
+    width: 35px;
+    height: 35px;
+    margin: 0.5rem; /* Espacio alrededor de cada ícono */
   }
   
   /* Ocultar menú de escritorio y mostrar ícono de hamburguesa */
