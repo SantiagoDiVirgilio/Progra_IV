@@ -102,7 +102,7 @@ p a{
   color: #418242;
 }
 
-/*----------------------------- INICIO ESTILOS DE PAGINA CONTACTO--------------------------------------*/
+/*----------------------------- INICIO ESTILOS DE PAGINA CONTACTO --------------------------------------*/
 .formu{
   flex: 0 0 45%;
   color: #ffffff;
@@ -152,7 +152,7 @@ p a{
   background-repeat: no-repeat;
   background-position: left;
 }
-/*----------------------------- FIN ESTILOS DE PAGINA CONTACTO----------------------------------------*/
+/*----------------------------- FIN ESTILOS DE PAGINA CONTACTO ----------------------------------------*/
 .container-principal {
   display: flex;
   align-items: stretch;
@@ -228,7 +228,7 @@ p a{
     margin-bottom: 1rem; /* Space below the name */
 }
 
-/*-----------------------------------------------Código de Lightbox-----------------------------*/
+/*-------------------------------------------- Inciio Código de Lightbox ----------------------------------------*/
 .lightbox-min{ /*Para las imágenes de la primer fila*/
 	margin-left: 1.7%;
   margin-top: 1.7%;
@@ -459,9 +459,9 @@ body.lb-disable-scrolling {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
-/*Fin del código de Lightbox*/
+/*---------------------------------------- Fin del código de Lightbox -------------------------------------------*/
 
-/*--------------------------------------- Efecto Zoom en Imagenes -----------------------------------------------*/
+/*--------------------------------------- Inicio Efecto Zoom en Imagenes -----------------------------------------*/
  img.redes{
     width: 55px;
     height: 55px;
@@ -479,7 +479,7 @@ body.lb-disable-scrolling {
     -o-transform: scale(0.8);
     transform: scale(0.8);
 }
-/*--------------------------------------- Efecto Zoom en Imagenes -----------------------------------------------*/
+/*--------------------------------------- Fin Efecto Zoom en Imagenes -------------------------------------------*/
 div h1{
 	font-family: 'Cinzel', serif;
 	color: #FFFFFF;
