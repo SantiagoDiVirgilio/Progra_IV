@@ -15,11 +15,11 @@
 
 <body style= "background-color: #040203;">
 	<header>
-		<div>
+		<div class="header-bar">
 			<a href="index.html"><img src="Imagenes/Logo.png" alt="Logo de la serie" class="logo"></a>
+			<a href="javascript:void(0);" class="icon" onclick="toggleMenu()">&#9776;</a>
 		</div>
-		
-		<nav >
+		<nav id="myTopnav">
 			<ul>
 				<li><a href="index.html">Inicio</a></li>
 				<li>
@@ -92,6 +92,14 @@ $(document).ready(function(){
         $(this).removeClass('transition');
     });
 });
+function toggleMenu() {
+  var x = document.getElementById("myTopnav");
+  if (x.className.includes("responsive")) {
+    x.className = "";
+  } else {
+    x.className += " responsive";
+  }
+}
 </script>
 </body>
 </html>
