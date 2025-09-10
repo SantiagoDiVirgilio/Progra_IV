@@ -89,6 +89,15 @@ $(document).ready(function(){
         $(this).removeClass('transition');
     });
 });
+
+function toggleMenu() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "") {
+    x.className += "responsive";
+  } else {
+    x.className = "";
+  }
+}
 </script>
 </body>
 
