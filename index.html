@@ -15,7 +15,7 @@
 
 <body>
 	<header>
-		<div class="header-bar">
+		<div class="mobile-header-bar">
 			<a href="index.html"><img src="Imagenes/Logo.png" alt="Logo de la serie" class="logo"></a>
 			<a href="javascript:void(0);" class="icon" onclick="toggleMenu()">&#9776;</a>
 		</div>
@@ -91,7 +91,12 @@ $(document).ready(function(){
 });
 
 function toggleMenu() {
-  document.getElementById("myTopnav").classList.toggle("responsive");
+  var x = document.getElementById("myTopnav");
+  if (x.className.includes("responsive")) {
+    x.className = "";
+  } else {
+    x.className += " responsive";
+  }
 }
 </script>
 </body>
