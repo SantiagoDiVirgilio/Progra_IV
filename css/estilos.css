@@ -689,20 +689,32 @@ footer div h7{
   }
 
   footer div {
-    /* Resetea los estilos de escritorio que puedan interferir */
-    margin: 1.5rem auto 0; /* Margen superior, y centrado automático horizontal */
+    margin: 1.5rem auto 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.5rem; /* Espacio reducido entre los enlaces */
   }
 
-  /* Unifica los estilos de texto y enlaces dentro del div */
-  footer div a,
+  /* Oculta los <br> para un control de espaciado más preciso con CSS */
+  footer div br {
+    display: none;
+  }
+
   footer div h7 {
-    display: block; /* Asegura que ocupen su propia línea */
-    margin: 0; /* El 'gap' se encarga del espaciado vertical */
+    display: block;
+    margin-bottom: 0.75rem; /* Espacio debajo de los títulos (Personajes, Temporadas) */
     font-size: 1.1rem;
+  }
+
+  footer div a {
+    display: block;
+    margin-top: 0.25rem; /* Espacio reducido entre los enlaces (AVT, Variantes) */
+    font-size: 1.1rem;
+  }
+
+  /* Elimina el margen superior del primer enlace para que quede más pegado al título */
+  footer div h7 + a {
+    margin-top: 0;
   }
 
   /* Aumenta el tamaño de los íconos y ajusta su espaciado */
