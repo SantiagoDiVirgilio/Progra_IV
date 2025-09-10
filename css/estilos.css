@@ -717,11 +717,18 @@ footer div h7{
     margin-top: 0;
   }
 
-  /* Aumenta el tamaño de los íconos y ajusta su espaciado */
+  /* Contenedores de los íconos de redes sociales */
+  footer > a {
+    display: inline-block;
+    margin-top: 1.5rem; /* Baja los íconos para separarlos de los enlaces */
+  }
+
+  /* Estilos de los íconos de redes sociales */
   footer img.redes {
     width: 35px;
     height: 35px;
     margin: 0.5rem; /* Espacio alrededor de cada ícono */
+    vertical-align: middle; /* Alinea mejor los íconos en la línea */
   }
   
   /* Ocultar menú de escritorio y mostrar ícono de hamburguesa */
