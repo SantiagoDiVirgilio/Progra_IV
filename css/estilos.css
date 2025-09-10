@@ -633,10 +633,18 @@ footer div h7{
   }
 
   /* Galería */
-  .lightbox-min,
-  .lightbox-min-2 {
+  section > div {
+    text-align: center; /* Para centrar las imágenes */
+  }
+  .zoom {
+    display: inline-block;
     width: 48%;
     margin: 1%;
+    vertical-align: top;
+  }
+  .lightbox-min,
+  .lightbox-min-2 {
+    width: 100%; /* Las imágenes ocupan el 100% de su contenedor <a> */
   }
 
   /* Formulario */
