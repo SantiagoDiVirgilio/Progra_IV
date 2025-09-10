@@ -24,7 +24,17 @@ header{
     justify-content: space-between;
     background-color: #270e03;
     padding: 10px;
+    position: relative; /* Añadido para el posicionamiento del menú */
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan */
 }
+
+.header-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
 .icon{ 
   display: none; 
 }
@@ -634,18 +644,18 @@ footer div h7{
 
   /* Galería */
   .gallery-section > div {
-    text-align: center; /* Para centrar las imágenes */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
   .gallery-section .zoom {
-    display: inline-block;
-    width: 48%;
-    margin: 1%;
-    vertical-align: top;
+    flex-basis: 45%;
+    margin-bottom: 1rem;
   }
   .gallery-section .lightbox-min,
   .gallery-section .lightbox-min-2 {
-    width: 100%; /* Las imágenes ocupan el 100% de su contenedor <a> */
-    margin: 0; /* Reseteamos el margen para que no haya doble margen */
+    width: 100%;
+    margin: 0;
   }
 
   /* Formulario */
