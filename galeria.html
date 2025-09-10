@@ -97,12 +97,7 @@ $(document).ready(function(){
 });
 
 function toggleMenu() {
-  var x = document.getElementById("myTopnav");
-  if (x.className.includes("responsive")) {
-    x.className = "";
-  } else {
-    x.className += " responsive";
-  }
+  document.getElementById("myTopnav").classList.toggle("responsive");
 }
 </script>
 
