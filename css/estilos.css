@@ -694,7 +694,7 @@ footer div h7{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem; /* Espacio uniforme entre los enlaces */
+    gap: 0.5rem; /* Espacio reducido entre los enlaces */
   }
 
   /* Unifica los estilos de texto y enlaces dentro del div */
