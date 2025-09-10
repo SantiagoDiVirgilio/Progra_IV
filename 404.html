@@ -15,7 +15,7 @@
 
 <body style="background-image: url('Imagenes/404.png'); display: flex; flex-direction: column; min-height: 100vh;">
 	<header>
-		<div class="header-bar">
+		<div class="mobile-header-bar">
 			<a href="index.html"><img src="Imagenes/Logo.png" alt="Logo de la serie" class="logo"></a>
 			<a href="javascript:void(0);" class="icon" onclick="toggleMenu()">&#9776;</a>
 		</div>
@@ -64,11 +64,25 @@
 		<a href="https://www.instagram.com/" target="_blank"><img src="Imagenes/Icono_Instagram.png" alt="Instagram" class="redes"> </a>
 		<a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZXMifQ%3D%3D%22%7D" target="_blank"><img src="Imagenes/Icono_Twitter.png" alt="Twitter" class="redes"></a>
 	</footer>
-	<script>
-	function toggleMenu() {
-	  document.getElementById("myTopnav").classList.toggle("responsive");
-	}
-	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+    $('.redes').hover(function() {
+        $(this).addClass('transition');
+    }, function() {
+        $(this).removeClass('transition');
+    });
+});
+function toggleMenu() {
+  var x = document.getElementById("myTopnav");
+  if (x.className.includes("responsive")) {
+    x.className = "";
+  } else {
+    x.className += " responsive";
+  }
+}
+</script>
 </body>
 
 </html>
