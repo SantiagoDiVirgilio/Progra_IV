@@ -558,7 +558,7 @@ footer div h7{
 }
 
 /*-----------------------------------------------VERSIÓN DE MÓBILES----------------------------------------------*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   /* Ajustes generales del body */
   body {
     display: flex;
@@ -683,9 +683,6 @@ footer div h7{
 
   .icon {
     display: block;
-    position: absolute;
-    top: 15px;
-    right: 20px;
     color: white;
     font-size: 24px;
     cursor: pointer;
@@ -696,7 +693,7 @@ footer div h7{
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 120px; /* Ajustado para no superponer el logo */
+    top: 60px; /* Ajustado para estar debajo del header-bar */
     left: 0;
     width: 100%;
     background-color: #270e03;
