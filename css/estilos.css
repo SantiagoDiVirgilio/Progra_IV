@@ -688,7 +688,8 @@ footer div h7{
   }
 
   footer div,
-  footer div h7 {
+  footer div h7,
+  footer div h7 a {
     display: block;
     text-align: center;
     margin: 0.5rem 0;
