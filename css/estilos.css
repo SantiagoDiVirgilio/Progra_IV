@@ -89,7 +89,7 @@ width: 20%;
 }
 .dropdown:hover .dropdown-content {
   display: block;
-  color: #C9C9C9;
+  color: #cf9548;
 }
 .dropdown-content li:hover {
 background-color: #B4BAC6;
