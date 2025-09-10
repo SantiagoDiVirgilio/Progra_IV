@@ -570,13 +570,21 @@ footer div h7{
 
   /* Header y Navegación */
   header {
-    flex-direction: column;
+    flex-direction: column; /* Revertido a column */
     align-items: center;
+    padding: 10px;
+  }
+
+  .mobile-header-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Asegura que ocupe todo el ancho disponible */
   }
 
   .logo {
-    width: 50%;
-    margin-bottom: 1rem;
+    width: 40%; /* Ajusta el tamaño del logo para móvil */
+    margin-bottom: 0;
   }
 
   nav {
@@ -641,6 +649,10 @@ footer div h7{
 
   .info_temp p {
     padding: 1.5rem;
+  }
+
+   .info_temp h2 {
+    margin-left: 56%;
   }
   /* Galería */
   .gallery-section > div {
