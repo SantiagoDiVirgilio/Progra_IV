@@ -64,12 +64,15 @@ li {
   list-style: none;
 }
 nav ul li a:hover{
-  color: rgb(50, 87, 50);
+  color: rgb(96, 172, 96);
 }
 .logo{
 width: 20%;
 }
  /* Menú desplegable de la versión de escritorio */
+.dropdown a:hover{
+  color: rgb(40, 90, 40);
+}
 .dropdown {
   position: relative;
   display: inline-block;
