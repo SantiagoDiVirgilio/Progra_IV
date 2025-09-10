@@ -565,7 +565,7 @@ footer div h7{
   margin-top: 7%;
   margin-left: 15%;
   color: #FFFFFF;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 /*-----------------------------------------------VERSIÓN DE MÓBILES----------------------------------------------*/
@@ -687,7 +687,8 @@ footer div h7{
     padding: 1rem 0;
   }
 
-  footer div {
+  footer div,
+  footer div h7 {
     display: block;
     text-align: center;
     margin: 0.5rem 0;
