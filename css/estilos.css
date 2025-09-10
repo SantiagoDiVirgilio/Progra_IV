@@ -41,7 +41,6 @@ a{
 	text-decoration: none;
 }
 nav{
-  width: 100%;
   display: flex;
   justify-content: flex-end;
 }
@@ -653,7 +652,7 @@ footer div h7{
   }
   .gallery-section .lightbox-min,
   .gallery-section .lightbox-min-2 {
-    margin-bottom: 10%;
+    margin-top: 10%;
     width: 100%;
   }
 
