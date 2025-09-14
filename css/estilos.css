@@ -567,6 +567,11 @@ footer div h7{
   font-size: 1rem;
 }
 
+footer div + a::before {
+  content: "";
+  display: block;
+}
+
 /*-----------------------------------------------VERSIÓN DE MÓBILES----------------------------------------------*/
 @media screen and (max-width: 480px) {
   /* Ajustes generales del body */
