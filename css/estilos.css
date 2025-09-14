@@ -540,7 +540,7 @@ footer img{
   margin-bottom: 2%;
 }
 footer div{
-  display: block;
+  display: inline;
   margin: 2% auto;
 }
 footer div a{
