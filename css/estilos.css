@@ -478,7 +478,7 @@ body.lb-disable-scrolling {
     -moz-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
     -ms-transition: all .2s ease-in-out;
-    margin: 3% 10px 2%;
+    margin-left: 18%;
 }
  
 .transition {
