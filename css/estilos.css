@@ -530,7 +530,8 @@ article p{
 }
 
 footer{
-	background-color: #270e03
+	background-color: #270e03;
+	text-align: center;
 }
 footer img{
   margin-top: 3%;
