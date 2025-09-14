@@ -540,11 +540,8 @@ footer img{
   margin-bottom: 2%;
 }
 footer div{
-  text-align: center;
-  margin-left: 20%;
-  margin-right: -11%;
-  display: inline-grid;
-  margin-top: 2%;
+  display: block;
+  margin: 2% auto;
 }
 footer div a{
   font-family: 'Cinzel', serif;
