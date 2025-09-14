@@ -541,10 +541,8 @@ footer img{
 }
 footer div{
   text-align: center;
-  margin-left: 16%;
-  margin-right: -11%;
-  display: inline-grid;
-  margin-top: 2%;
+  display: block;
+  margin: 2% auto 0;
 }
 footer div a{
   font-family: 'Cinzel', serif;
