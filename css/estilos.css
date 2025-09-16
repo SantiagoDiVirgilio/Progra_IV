@@ -122,7 +122,6 @@ p a{
   text-align: center; /* Centra el texto */;
   border: 2px solid rgb(96, 172, 96);
   box-shadow: 0 0 15px rgba(96, 172, 96, 0.7);
-  height: 80vh;
   display: flex;
   flex-direction: column;
 }
